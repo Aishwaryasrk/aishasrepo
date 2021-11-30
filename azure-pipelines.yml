@@ -5,7 +5,7 @@
 
 
 pool:
-  name: 
-  vmImage: 'self-hosted'
+  name: 'SelfHostedAgentPool'
+  vmImage: 'shubham-Standard-PC-i440FX-PIIX-1996'
 steps:
 - bash: echo "Add other tasks to build, test, and deploy your project.""
