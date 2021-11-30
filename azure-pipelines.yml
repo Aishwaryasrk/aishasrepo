@@ -5,6 +5,7 @@
 
 
 pool:
-  vmImage: self-hosted
+  name: 
+  vmImage: 'self-hosted'
 steps:
 - bash: echo "Add other tasks to build, test, and deploy your project.""
