@@ -7,7 +7,4 @@
 pool:
   vmImage: self-hosted
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
 - bash: echo "Add other tasks to build, test, and deploy your project.""
