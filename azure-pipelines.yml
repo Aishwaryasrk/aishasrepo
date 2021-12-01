@@ -9,3 +9,8 @@ pool:
   vmImage: 'shubham-Standard-PC-i440FX-PIIX-1996'
 steps:
 - bash: echo "Add other tasks to build, test, and deploy your project."
+
+- task: WhiteSource@21
+  inputs:
+    cwd: '$(System.DefaultWorkingDirectory)'
+    projectName: 'Aishwaryaproject'
